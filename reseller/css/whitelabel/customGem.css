@@ -1,0 +1,47 @@
+.btn-dashboard {
+    background-color: #38a8f9;
+    border: 1px solid #38a8f9;
+}
+
+a {
+    color: #38a8f9;
+}
+
+.btn-primary {
+    background-color: #38a8f9 !important;
+    border: 1px solid #38a8f9 !important;
+}
+
+#sidebar-menu > ul > li > a.active {
+    border-left: 3px solid #38a8f9;
+    color: #38a8f9!important;
+}
+
+#sidebar-menu > ul > li > a:hover {
+    color: #38a8f9;
+}
+
+.pagination > .active > a, .pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    background-color: #38a8f9;
+    border-color: #38a8f9;
+}
+
+.primaryBtn {
+    background-color: #38a8f9;
+}
+
+.signupText {
+  color: #38a8f9;
+}
+
+.primaryBtn:hover {
+    background-color: #3d96d7;
+}
+
+.primaryBtn:focus {
+    background-color: #3d96d7;
+}

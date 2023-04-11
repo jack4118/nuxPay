@@ -1,0 +1,1234 @@
+/* SHARE */
+.landing_title {
+    font-weight: bold;
+    font-size: 40px;
+}
+.landing_text {
+    font-size: 18px;
+    color: #414042;
+}
+.red-text {
+    color: rgb(235, 51, 51)
+}
+.blue-text {
+    color: #6ECA45;
+}
+
+/* SECTION 001 */
+.newNuxPaySection001BG {
+	background-image: url(../images/landing/sec01/landingBg1.png);
+	image-rendering: -webkit-optimize-contrast;
+	background-size: 67vw;
+	background-repeat: no-repeat;
+	background-position: bottom 0 right -50px;
+	min-height: fit-content;
+	display: flex;
+	align-items: flex-start;
+	margin-top: 80px;
+}
+.newNuxPaySection001BG-container {
+    width: 100%;
+    margin: 0 40px 0 40px;
+}
+.newNuxPaySection001BG-smallSection {
+    width: 50%;
+    margin: 5% 0;
+    padding: 0 35px;
+}
+.newNuxPaySection001BG-text {
+    padding: 0 40px 0 0;
+}
+.newNuxPaySection001BG-icondiv {
+    text-align: left;
+    /* width: 100px; */
+    margin-right: 15px;
+}
+.newNuxPaySection001BG-icon {
+    max-width: 70px;
+    max-height: 45px;
+}
+.newNuxPaySection001BG-icon2 {
+    max-width: 70px;
+	max-height: 45px;
+	margin-left: 10px;
+}
+
+/* SECTION 002 */
+.newNuxPaySection002BG {
+    margin: 0 0 80px 0;
+    min-height: 350px;
+}
+#cryptoPricingTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+#cryptoPricingTableId {
+    width: 90%;
+    border: 2px solid #EBEDF2;
+    border-radius: 10px;
+}
+.newNuxPaySection002BG-icon {
+    width: 40px;
+    padding-right: 15px;
+}
+.newNuxPaySection002BG-button {
+    width: 60px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #52C1D6;
+}
+
+/* SECTION 003 */
+.newNuxPaySection003BG {
+	min-height: 600px;
+    margin-top: 80px;
+}
+.newNuxPaySection003BG-title {
+	width: 60%;
+	text-align: center;
+}
+.newNuxPaySection003BG-text {
+	text-align: center;
+	padding: 0 40px;
+}
+.newNuxPaySection003BG-smallSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+	height: 400px;
+}
+.newNuxPaySection003BG-imageContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.newNuxPaySection003BG-smallTitle {
+	font-weight: bold; 
+	font-size: 20px;
+	text-align: center;
+	height: 55px;
+}
+.newNuxPaySection003BG-image {
+	width: 50%;
+	border-radius: 100%;
+}
+
+/* SECTION 004 */
+.newNuxPaySection004BG {
+    /* background-image: url(../images/landing/sec01/landingBg3.jpg); */
+	image-rendering: -webkit-optimize-contrast;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top 0 right 0;
+	min-height: 90vh;
+	display: flex;
+	align-items: flex-start;
+    padding: 40px;
+    margin-top: 80px;
+}
+.newNuxPaySection004BG-container {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newNuxPaySection004BG-title {
+    /* width: 40%; */
+    margin-bottom: 30px;
+    text-align: center;
+}
+.newNuxPaySection004BG-smallTitle {
+	font-weight: bold; 
+	font-size: 20px;
+    margin-bottom: 30px;
+}
+.newNuxPaySection004BG-textContainer {
+    width: 60%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.newNuxPaySection004BG-resContainer {
+    display: flex;
+    width: 100%;
+    /* height: 160px; */
+}
+.newNuxPaySection004BG-resDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    /* padding: 15px; */
+    /* background-color: #081A38; */
+}
+.newNuxPaySection004BG-divTitle {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0;
+    padding-bottom: 5px;
+    min-height: 80px;
+}
+.newNuxPaySection004BG-divText {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.newNuxPaySection001BG-icon.resDiv{
+    min-width: 60%;
+    margin-bottom: 20px;
+    min-height: unset;
+    max-height: unset;
+}
+/* .newNuxPaySection004BG-divTitle.newNuxPaySection007BG{
+
+} */
+.newNuxPaySection007BG-text{
+    font-size: 40px;
+}
+.newNuxPaySection007BG-text2{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+.newNuxPaySection007BG{
+    background-image: url(../images/landing/sec01/landingBg3.jpg);
+    image-rendering: -webkit-optimize-contrast;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top 0;
+	/* min-height: 90vh; */
+	/* display: flex; */
+    padding: 40px;
+    margin-bottom: 100px;
+}
+.newNuxPaySection008BG{
+    /* background-image: url(../images/landing/sec01/landingBg3.jpg); */
+    image-rendering: -webkit-optimize-contrast;
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	background-position: top 0;
+	/* min-height: 90vh; */
+	/* display: flex; */
+    padding: 10px;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 100px;
+}
+.newNuxPaySection008BG-title {
+    margin-bottom: 30px;
+}
+.newNuxPaySection008BG-img{
+    /* min-height: 90vh; */
+    width: 100%;
+}
+.newNuxPaySection008BG-text {
+    font-size: 40px;
+    color: #51c2db;
+    font-weight: 600;
+    /* margin-right: 0; */
+    text-align: end;
+    
+}
+.newNuxPaySection008BG-divText {
+    font-size: 16px;
+    margin: auto;
+}
+
+/* SECTION 005 */
+.newNuxPaySection005BG {
+    background-image: url(../images/landing/sec01/landingBg4.png);
+	image-rendering: -webkit-optimize-contrast;
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	background-position: top 0;
+	min-height: 90vh;
+	display: flex;
+    padding: 40px;
+}
+.newNuxPaySection005BG-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.newNuxPaySection005BG-title {
+    text-align: center;
+    color: #fff;
+}
+.newNuxPaySection005BG-text {
+    text-align: center;
+    color: #fff;
+    width: 60%;
+    margin-bottom: 30px;
+}
+.newNuxPaySection005BG-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 70%;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(67, 80, 94, 0.1);
+}
+.newNuxPaySection005BG-field {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin-bottom: 20px;
+}
+.newNuxPaySection005BG-largeField {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.newNuxPaySection005BG-largeField:last-child {
+    margin-bottom: 0;
+}
+.newNuxPaySection005BG-button {
+    width: 20%;
+}
+.newNuxPaySection005BG-input {
+    border-radius: 7px;
+    border-width: 2px;
+    height: 50px;
+}
+.newNuxPaySection005BG-input::placeholder {
+    color: rgb(167, 164, 164);
+}
+.newNuxPaySection005BG-bottomDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 0 40px 40px 40px;
+    margin-top: 40px;
+}
+.newNuxPaySection005BG-bottomContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 27%;
+    height: 300px;
+}
+.newNuxPaySection005BG-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.newNuxPaySection005BG-smallTitle {
+    font-size: 18px;
+    font-weight: 400;
+}
+.newNuxPaySection005BG-contactText {
+    font-size: 14px;
+    text-align: center;
+    height: 70px;
+}
+.newNuxPaySection005BG-contactDetails {
+    text-align: center;
+    color: #51C2DC;
+}
+.newNuxPaySection005BG-bottomTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.newNuxPaySection005BG-contactDetails {
+    cursor: pointer;
+}
+#supportEmail:hover {
+    color: #51C2DC;
+}
+.landing_phone {
+    font-weight: bold;
+    font-size: 40px;
+    color: #51C2DB;
+}
+
+.newNuxPaySection006BG {
+	background-color: #bbe6f1;
+}
+
+.newNuxPaySection006BG-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 0 40px 0 40px;
+}
+
+.newNuxPaySection006BG .row {
+	padding: 20px;
+}
+
+.newNuxPaySection006BG-smallTitle {
+    text-align: center;
+    color: #000;
+	font-size: 18px;
+	min-height: 50px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.newNuxPaySection006BG-bottomDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 40px 40px 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.newNuxPaySection006BG-bottomContainer {
+	padding: 0 30px;
+	max-width: 300px;
+}
+
+.newNuxPaySection006BG-bottomTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.newNuxPaySection006BG-textContainer {
+    font-size: 24px;
+    text-align: center;
+	color: #51C2DB;
+	font-weight: bold;
+	margin-bottom: 0;
+    /* min-height: 50px; */
+}
+
+.startNowBtn {
+	background-color: #51C2DB;
+    padding: 15px 30px;
+	width: 60%;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    border: unset;
+	box-shadow: 3px 3px 10px #888888;
+}
+
+/* Affiliate Program Landing Page */
+.affiliatePage {
+    background-image: url('../images/affiliate/nuxpay-affiliate-bg.jpg');
+    background-size: cover;
+    padding: 0 100px;
+    height: 100%;
+}
+
+.headerAffiliate {
+    padding: 30px 0;
+}
+
+.headerAffiliate img {
+    height: 55px;
+}
+
+.affiliateTextSection {
+    padding-right: 50px;
+}
+
+.affiliateTitle {
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.affiliateDescription {
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.affiliateContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.affiliateDetails:nth-child(2) {
+    padding: 0 15px;
+}
+
+.affiliateDetailsTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #51C2DB;
+}
+
+.affiliateDetailsDescription {
+    font-size: 16px;
+    color: #fff;
+    height: 100px;
+}
+
+.affiliateFormSection {
+    padding-left: 50px;
+    height: 100%;
+}
+
+.affiliateFormHeader {
+    height: 30px;
+    background: #51C2DB;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.affiliateFormBody {
+    padding: 40px;
+    background-color: #EBEDF2;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.affiliateFormBodyTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4e5a64;
+}
+
+.affiliateFormInputGroup {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.affiliateFormInputGroup label {
+    color: #5d5f77;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.affiliateFormInputGroup input {
+    border-radius: 5px;
+    border: 2px solid rgb(217, 217, 217);
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.affiliateFormInputGroup input::placeholder {
+    font-size: 12px;
+}
+
+.affiliateFormBtnGroup {
+    padding-top: 30px;
+    font-size: 12px;
+}
+
+.affiliateFormBtnGroup .submitBtn {
+    background: #51C2DB;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid #51C2DB;
+    padding: 8px 30px;
+}
+
+.footerAffiliate {
+    color: #fff;
+    padding-top: 30px;
+    font-size: 12px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.affiliatePaymentText {
+    padding-right: 10px;
+}
+
+.affiliatePaymentMethod img {
+    width: 55px;
+    margin: 0 3px;
+    padding: 3px;
+}
+
+.affiliatePaymentMethod img:nth-child(3) {
+    width: 35px;
+    background-color: #fff;
+}
+
+.affiliateMobileView {
+    flex-direction: column;
+}
+
+.affiliateMobileView>* {
+    padding-bottom: 20px;
+}
+
+/* MEDIA QUERY SECTION */
+@media (min-width: 991px) and (max-width: 1024px) {
+    /* Affiliate Program Landing Page */
+    .affiliateTitle {
+        font-size: 40px;
+    }
+
+    .affiliateDescription {
+        font-size: 14px;
+        padding-bottom: 50px;
+    }
+    .affiliateDetailsDescription {
+        font-size: 14px;
+    }
+
+    .affiliateDetailsTitle,
+    .affiliateFormBodyTitle {
+        font-size: 20px;
+    }
+
+    .affiliateFormBody {
+        padding: 30px;
+    }
+
+    .affiliateFormInputGroup label,
+    .affiliateFormInputGroup input,
+    .affiliateFormInputGroup input::placeholder,
+    .footerAffiliate {
+        font-size: 10px;
+    }
+
+    .affiliateFormBtnGroup .submitBtn {
+        font-size: 10px;
+        padding: 5px 20px;
+    }
+
+    .startNowBtn {
+        width: 70%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Affiliate Program Landing Page */
+    .affiliatePage {
+        padding: 0 50px;
+    }
+
+    .headerAffiliate img {
+        height: 45px;
+    }
+
+    .affiliateTitle {
+        font-size: 35px;
+    }
+
+    .affiliateTextSection {
+        padding-right: 20px;
+    }
+
+    .affiliateDescription {
+        font-size: 12px;
+        padding-bottom: 50px;
+    }
+    .affiliateDetailsDescription {
+        font-size: 12px;
+    }
+
+    .affiliateDetailsTitle,
+    .affiliateFormBodyTitle {
+        font-size: 16px;
+    }
+
+    .affiliateFormBody {
+        padding: 20px;
+    }
+
+    .affiliateFormInputGroup label,
+    .affiliateFormInputGroup input,
+    .affiliateFormInputGroup input::placeholder,
+    .footerAffiliate {
+        font-size: 10px;
+    }
+
+    .affiliateFormBtnGroup .submitBtn {
+        font-size: 10px;
+        padding: 5px 20px;
+    }
+
+    .affiliateFormHeader {
+        height: 15px;
+    }
+
+    .affiliatePaymentMethod img {
+        width: 45px;
+    }
+    
+    .affiliatePaymentMethod img:nth-child(3) {
+        width: 25px;
+    }
+
+    .affiliateFormSection {
+        padding-left: 20px;
+    }
+
+    .startNowBtn {
+        width: 80%;
+        padding: 10px 30px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Affiliate Program Landing Page */
+    .affiliatePage {
+        padding: 0 50px;
+        height: fit-content;
+    }
+
+    .headerAffiliate {
+        text-align: center;
+    }
+
+    .headerAffiliate img {
+        height: 65px;
+    }
+
+    .affiliateTitle {
+        font-size: 50px;
+        line-height: 1.2;
+        padding-bottom: 20px;
+    }
+
+    .affiliateTextSection {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+
+    .affiliateDescription {
+        font-size: 18px;
+        padding-bottom: 50px;
+    }
+    .affiliateDetailsDescription {
+        font-size: 18px;
+    }
+
+    .affiliateDetailsTitle,
+    .affiliateFormBodyTitle {
+        font-size: 24px;
+    }
+
+    .affiliateFormBody {
+        padding: 25px;
+    }
+
+    .affiliateFormInputGroup label,
+    .affiliateFormInputGroup input,
+    .affiliateFormInputGroup input::placeholder,
+    .footerAffiliate {
+        font-size: 16px;
+    }
+
+    .affiliateFormBtnGroup .submitBtn {
+        font-size: 16px;
+        padding: 10px 40px;
+    }
+
+    .affiliateFormHeader {
+        height: 25px;
+    }
+
+    .affiliatePaymentMethod img {
+        width: 70px;
+    }
+    
+    .affiliatePaymentMethod img:nth-child(3) {
+        width: 45px;
+    }
+
+    .affiliateFormSection {
+        padding-left: 0;
+        padding-bottom: 30px;
+    }
+
+    .newNuxPaySection001BG-smallSection:last-child {
+        width: 100%;
+    }
+
+    .startNowBtn {
+        width: 45%;
+        padding: 10px 30px;
+    }
+}
+
+@media (max-width: 481px) {
+    /* Affiliate Program Landing Page */
+    .affiliatePage {
+        padding: 0 20px;
+        height: fit-content;
+    }
+
+    .headerAffiliate {
+        text-align: center;
+    }
+
+    .headerAffiliate img {
+        height: 55px;
+    }
+
+    .affiliateTitle {
+        font-size: 45px;
+        line-height: 1.2;
+        padding-bottom: 20px;
+    }
+
+    .affiliateTextSection {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+
+    .affiliateDescription {
+        font-size: 16px;
+        padding-bottom: 50px;
+    }
+    .affiliateDetailsDescription {
+        font-size: 16px;
+    }
+
+    .affiliateDetailsTitle,
+    .affiliateFormBodyTitle {
+        font-size: 22px;
+    }
+
+    .affiliateFormBody {
+        padding: 25px;
+    }
+
+    .affiliateFormInputGroup label,
+    .affiliateFormInputGroup input,
+    .affiliateFormInputGroup input::placeholder,
+    .footerAffiliate {
+        font-size: 14px;
+    }
+
+    .affiliateFormBtnGroup .submitBtn {
+        font-size: 14px;
+        padding: 10px 40px;
+    }
+
+    .affiliateFormHeader {
+        height: 25px;
+    }
+
+    .affiliatePaymentMethod img {
+        width: 70px;
+    }
+    
+    .affiliatePaymentMethod img:nth-child(3) {
+        width: 45px;
+    }
+
+    .affiliateFormSection {
+        padding-left: 0;
+        padding-bottom: 30px;
+    }
+
+    .leftFooter {
+        text-align: center;
+    }
+
+    .newNuxPaySection001BG-smallSection:last-child {
+        width: 100%;
+    }
+
+    .startNowBtn {
+        width: 55%;
+        padding: 10px 30px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .landing_phone {
+        font-size: 30px;
+    }
+    .landing_title {
+        font-size: 30px;
+    }
+    .landing_text {
+        font-size: 16px;
+    }
+    .newNuxPaySection008BG-img{
+        margin-bottom: 20px;
+    }
+
+    /* .newNuxPaySection001BG {
+        min-height: 90vh;
+    } */
+    .newNuxPaySection001BG-container {
+        margin: 0 20px 0 20px;
+    }
+
+    .newNuxPaySection003BG {
+        min-height: 40vh;
+    }
+    .newNuxPaySection003BG-smallTitle {
+		font-size: 18px;
+	}
+    .newNuxPaySection003BG-text {
+        padding: 30px;
+    }
+
+    #cryptoPricingTableId {
+        width: 80%;
+    }
+
+    .newNuxPaySection004BG {
+        min-height: 40vh;
+        margin-top: 20px;
+    }
+    .newNuxPaySection004BG-divTitle {
+        font-size: 18px;
+        min-height: 40px;
+    }
+    .newNuxPaySection004BG-divText {
+        font-size: 15px;
+    }
+    .newNuxPaySection004BG-resContainer {
+        width: 75%;
+        height: 140px;
+    }
+
+    .newNuxPaySection005BG-form {
+        width: 80%;
+    }
+    .newNuxPaySection005BG-bottomDiv {
+        width: 100%;
+    }
+    .newNuxPaySection005BG-contactText {
+        height: 85px;
+    }
+    .newNuxPaySection007BG-text2 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .newNuxPaySection008BG-img{
+        margin-bottom: 20px;
+    }
+    .landing_phone {
+        font-size: 30px;
+    }
+    .landing_title {
+        font-size: 22px;
+    }
+    .landing_text {
+        font-size: 14px;
+    }
+    .newNuxPaySection008BG-text {
+        margin-left: 10px;
+    }
+/* 
+    .newNuxPaySection001BG {
+        min-height: 65vh;
+    } */
+    .newNuxPaySection001BG-container {
+        margin: 0 20px 0 20px;
+    }
+    .newNuxPaySection001BG-smallSection {
+        margin: 30px 0;
+        padding: 0 35px;
+    }
+    .newNuxPaySection001BG-mobileSection {
+        width: 100%;
+    }
+    .newNuxPaySection001BG-text {
+        padding: 0;
+    }
+    .newNuxPaySection001BG-icon {
+        max-width: 50px;
+        max-height: 35px;
+    }
+    .newNuxPaySection001BG-icon2 {
+        max-width: 50px;
+        max-height: 35px;
+    }
+
+    #cryptoPricingTableId {
+        width: 95%;
+    }
+
+    .newNuxPaySection003BG {
+        min-height: 40vh;
+    }
+    .newNuxPaySection003BG-text {
+        padding: 0;
+	}
+	.newNuxPaySection003BG-smallTitle {
+		font-size: 16px;
+	}
+
+    .newNuxPaySection004BG {
+        min-height: 40vh;
+        margin-top: 0;
+    }
+    .newNuxPaySection004BG-container {
+        padding: 0;
+    }
+    .newNuxPaySection004BG-divTitle {
+        font-size: 18px;
+        min-height: 40px;
+    }
+    .newNuxPaySection004BG-divText {
+        font-size: 15px;
+    }
+    .newNuxPaySection004BG-resContainer {
+        width: 80%;
+        height: 120px;
+    }
+    .newNuxPaySection004BG-smallTitle { 
+        font-size: 16px;
+    }
+
+    .newNuxPaySection005BG-form {
+        width: 100%;
+    }
+    .newNuxPaySection005BG-bottomDiv {
+        width: 100%;
+    }
+    .newNuxPaySection005BG-contactText {
+        height: 85px;
+    }
+    .newNuxPaySection005BG-smallTitle {
+        font-size: 16px;
+    }
+
+    .newNuxPaySection007BG-text2 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+    .newNuxPaySection008BG-img{
+        margin-bottom: 20px;
+    }   
+    .landing_title {
+        font-size: 18px;
+    }
+    .newNuxPaySection008BG-text {
+        margin-left: 10px;
+    }
+    .landing_text {
+        font-size: 11px;
+    }
+    .landing_phone {
+        font-size: 26px;
+    }
+    .newNuxPaySection006BG-textContainer{
+        margin-bottom: 30px;
+    }
+    .newNuxPaySection001BG {
+        background-size: 100vw;
+    	background-position: bottom 0 right -50px;
+        margin-top: 60px;
+        /* min-height: 50vh; */
+    }
+    .newNuxPaySection001BG-container {
+        margin: 0;
+    }
+    .newNuxPaySection001BG-smallSection {
+        margin: 30px 0;
+        width: 65%;
+        padding: 0 20px;
+    }
+    .newNuxPaySection001BG-mobileSection {
+        flex-direction: flex;
+        /* justify-content: space-between; */
+        width: 100%;
+        /* height: 180px; */
+        background-color: rgb(255,255,255, 0.5);
+        padding: 10px 20px;
+    }
+    .newNuxPaySection001BG-icon {
+        max-width: 40px;
+        max-height: 25px;
+    }
+    .newNuxPaySection001BG-icon2 {
+        max-width: 40px;
+        max-height: 25px;
+        margin-left: 0;
+    }
+    .newNuxPaySection001BG-text {
+        padding: 0;
+    }
+    #cryptoPricingTable {
+        padding: 10px;
+    }
+    #cryptoPricingTableId {
+        width: 100%;
+    }
+    .newNuxPaySection002BG-iconText {
+        display: none;
+    }
+
+    .newNuxPaySection003BG {
+        min-height: 50vh;
+    }
+    .newNuxPaySection003BG-smallTitle {
+		font-size: 14px;
+        text-align: left;
+        height: auto;
+        margin: 0;
+	}
+    .newNuxPaySection003BG-title {
+        width: 95%;
+    }
+    .newNuxPaySection003BG-text {
+        padding: 0 20px;
+    }
+    .newNuxPaySection003BG-text:not(:first-child) {
+        padding: 0 10px 0 0;
+        text-align: left;
+    }
+    .newNuxPaySection003BG-mobileSection {
+        flex-direction: column;
+        margin: 0 !important;
+    }
+    .newNuxPaySection003BG-smallSection {
+        width: 100%;
+        height: 120px;
+        flex-direction: row;
+    }
+    .newNuxPaySection003BG-imageContainer {
+        width: 35%;
+    }
+    .newNuxPaySection003BG-textContainer {
+        width: 65%;
+    }
+    .newNuxPaySection003BG-image {
+        width: 60%;
+    }
+
+    .newNuxPaySection004BG {
+        min-height: 55vh;
+        background-size: 160vw;
+        background-position: top 0 left 0;
+        padding: 30px;
+    }
+    .newNuxPaySection004BG-container {
+        padding: 0;
+    }
+    .newNuxPaySection004BG-smallTitle {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .newNuxPaySection004BG-title {
+        /* width: 100%; */
+        margin-bottom: 15px;
+    }
+    .newNuxPaySection004BG-textContainer {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .newNuxPaySection004BG-resContainer {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .newNuxPaySection004BG-resDiv {
+        width: 50%;
+        height: 95px;
+    }
+    .newNuxPaySection004BG-divTitle {
+        font-size: 18px;
+        min-height: 40px;
+    }
+    /* .newNuxPaySection007BG {
+        background-size: 130vw;
+        min-height: 0vh;
+    } */
+    .newNuxPaySection004BG-divText {
+        font-size: 15px;
+    }
+    
+    .newNuxPaySection005BG {
+        padding: 20px;
+    }
+    .newNuxPaySection005BG-text {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .newNuxPaySection005BG-form {
+        width: 95%;
+        padding: 20px;
+    }
+    .newNuxPaySection005BG-field {
+        width: 100%;
+    }
+    .newNuxPaySection005BG-button {
+        width: 100%;
+    }
+    .newNuxPaySection005BG-bottomDiv {
+        padding: 10px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .newNuxPaySection005BG-bottomContainer {
+        flex-direction: row;
+        width: 100%;
+        height: 85px;
+    }
+    .newNuxPaySection005BG-smallTitle {
+        font-size: 14px;
+        margin: 0;
+    }
+    .newNuxPaySection005BG-contactText {
+        display: none;
+    }
+    .newNuxPaySection005BG-icon {
+        width: 40px;
+        height: 40px;
+        margin: 0;
+    }
+    .newNuxPaySection005BG-bottomTextContainer {
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+    .newNuxPaySection005BG-contactDetails {
+        text-align: left;
+    }
+    .newNuxPaySection006BG .row {
+        padding: 30px 20px 0 20px;
+    }
+    .newNuxPaySection007BG-text2 {
+        font-size: 18px;
+    }
+
+    .newNuxPaySection007BG-text2 {
+        font-size: 14px;
+    }
+
+    /* .newNuxPaySection007BG {
+        padding: 0 40px;
+    } */
+
+    /* Affiliate Program Landing Page */
+    .headerAffiliate {
+        text-align: center;
+    }
+}

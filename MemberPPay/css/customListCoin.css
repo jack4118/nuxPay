@@ -1,0 +1,309 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url('fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  src: url('fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+body, a, div, span {
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+@media (min-width: 1025px){
+.m-header--fixed .m-header {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 101;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #bb1d27;
+}
+}
+
+@media (min-width: 1200px){
+.m-container:not(.m-container--fluid):not(.m-container--responsive) {
+    width: 1140px;
+    margin-top: 5px;
+}
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+    .m-container:not(.m-container--fluid):not(.m-container--responsive) {
+    margin-top: 10px;
+}
+}
+
+.section01BG {
+  background-image: url('../images/listcoin/section01_bg.png');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+.section01Title {
+    font-weight: 500;
+    font-size: 47px;
+    color: #fff;
+    line-height: 72px;
+}
+.section01Desc {
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 23px;
+    line-height: 1.5em;
+}
+.section01DownloadAPK {
+    margin-top: 44px;
+}
+.section01DownloadBtn {
+    height: 50px;
+}
+
+.section02BG {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section02Box1 {
+    background: rgb(65,200,233);
+    background: linear-gradient(90deg, rgba(65,200,233,1) 0%, rgba(157,119,253,1) 100%);
+    padding: 30px 50px;
+    overflow: hidden;
+}
+.section02Title {
+    font-weight: 900;
+    font-size: 35px;
+    color: #fff;
+    line-height: 45px;
+    margin-bottom: unset;
+    margin-top: unset;
+    min-height: unset;
+}
+.section02Desc {
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 8px;
+    line-height: 1.5em;
+}
+
+.section03BG {
+  background-image: url('../images/listcoin/section03_bg.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+.section03Title {
+    font-weight: 600;
+    font-size: 35px;
+    color: #fff;
+    margin-top: unset;
+    margin-bottom: unset;
+}
+.section03Desc {
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 13px;
+}
+.btnListCoin {
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+.section03Img {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.section04BG {
+    background-color: #fff;
+}
+.section04Title {
+    font-weight: 600;
+    font-size: 35px;
+    color : #C91F2B;
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+
+    .section01BG {
+        background-image: url(../images/listcoin/section01_bg.png);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .m-header--fixed-mobile .m-header {
+       -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        z-index: 101;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px!important;
+        background-color: #b51b25;
+    }
+
+
+.section02BG {
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+
+.section03BG {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+}
+
+  .hidden-sm {
+        display: block;
+    }
+
+     .visible-sm {
+        display: none;
+    }
+
+@media (min-width: 768px) and (max-width: 990px) {
+
+      .hidden-sm {
+        display: none;
+    }
+
+    .visible-sm {
+        display: block;
+    }
+
+    .section01BG {
+    background-image: url(../images/listcoin/section01_bg.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    overflow: hidden;
+}
+
+    .m-header--fixed-mobile .m-header {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 101;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px!important;
+    background-color: #c9202c;
+}
+
+.m-container:not(.m-container--fluid):not(.m-container--responsive) {
+    margin-top: 12px;
+}
+.section02Box1 {
+    padding: 30px 30px;
+}
+
+.section04BG {
+    overflow: hidden;
+}
+
+}
+
+ .hidden-xs {
+        display: block;
+    }
+
+    .visible-xs {
+        display: none;
+    }
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .hidden-xs {
+        display: none;
+    }
+
+       .visible-xs {
+        display: block;
+    }
+
+
+    .m-header--fixed-mobile .m-header {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 101;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px!important;
+    background-color: #c9202c;
+}
+
+.m-container:not(.m-container--fluid):not(.m-container--responsive) {
+    margin-top: 17px;
+}
+
+.section01Title {
+    font-weight: 600;
+    font-size: 35px;
+    color: #fff;
+    line-height: unset;
+    text-align: center;
+}
+.section01Desc, .section01DownloadAPK
+{
+    text-align: center;
+}
+
+.section01BG {
+    background-image: url(../images/listcoin/section01_bg.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+
+.section02BG {
+    background-color: #fff;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.section02Box1 {
+    padding: 30px 20px;
+}
+
+.section03BG {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+}

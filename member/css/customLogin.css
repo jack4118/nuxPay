@@ -1,0 +1,328 @@
+
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear {
+    display: none;
+}
+	
+#loginContainer {
+
+	background: #F5F5F5;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	height: 100vh; 
+	width: 100vw; 
+	grid-template-columns: 1fr;
+	grid-template-rows: 70px 0px auto 60px;
+
+	grid-template-areas: 
+	"loginHeader"
+	"loginMessage"
+	"loginContent"
+	"paymentGateway"
+	"loginFooter";
+}
+
+#loginHeader {
+	background: #282b2d;
+	text-align: center;
+	grid-area: loginHeader;
+}
+
+#loginHeaderLogo {
+    height: 40px;
+    margin-top: 15px;
+}
+
+#loginMessage {
+	text-align: center;
+	background: #FFFFFF;
+	/* margin-top: 10px; */
+	font-size: 13px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
+
+#loginContent {
+	background: #F5F5F5;
+	grid-area: loginContent;
+
+	display: flex;
+	justify-content: center;
+}
+
+
+#accountBox {
+	text-align: center;
+	background: #FFFFFF;
+	margin-top: 20px;
+	margin-bottom: auto;
+	/*margin-bottom: 40px;*/
+	padding: 25px;
+	max-width: 450px;
+	/*width: 400px;*/
+
+	box-shadow: 0 0 1px 1px #eee;
+}
+
+#paymentGateway {
+	background: #F5F5F5;
+	grid-area: paymentGateway;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+#innerPaymentGateway {
+	text-align: center;
+	background: #FFFFFF;
+	margin-top: 10px;
+	/* margin-bottom: auto; */
+	/*margin-bottom: 40px;*/
+	/* height: 75px; */
+	padding: 25px;
+	max-width: 450px;
+	/*width: 400px;*/
+
+	box-shadow: 0 0 1px 1px #eee;
+}
+
+#createTitle {
+	font-weight: 300;
+	font-size: 25px;
+	color: #000000;
+	margin-top: 20px;
+}
+
+#createSubTitle {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	font-weight: 400;
+	font-size: 12px;
+	color: #9F9F9F;
+}
+
+#accountType {
+	/*background: yellow;*/
+	text-align: left;
+}
+
+#accountType hr {
+	margin: 0;
+	border: 0 none;
+	color: #eee;
+	background-color: #eee;
+	height: 2px;
+}
+
+#emailLabelDiv, #mobileLabelDiv {
+
+	font-weight: 400;
+	font-size: 13px;
+
+	display: flex; 
+	margin-top: 25px; 
+	margin-bottom: 0;
+	color: #9F9F9F;
+}
+
+#passwordLabelDiv, #promoCodeLabelDiv, #newPasswordLabelDiv, #confirmPasswordLabelDiv {
+
+	font-weight: 400;
+	font-size: 13px;
+
+	display: flex; 
+	margin-top: 5px; 
+	margin-bottom: 0;
+	color: #9F9F9F;
+
+}
+
+#signupForgotDiv {
+
+	font-weight: 200;
+	font-size: 13px;
+
+	display: flex; 
+	margin-top: 5px; 
+	margin-bottom: 0;
+	color: #9F9F9F;
+
+}
+
+#emailSection, #mobileSection, #passwordSection, #promoCodeSection, #newPasswordSection, #confirmPasswordSection {
+	width: 100%;
+}
+
+.loginInput, .loginInput:focus {
+	font-weight: 300;
+	font-size: 15px;
+	color: #000;
+	background-color: #fff;
+	/*border: unset;*/
+	border-radius: 5px;
+	/*-webkit-box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.2) !important;
+	-moz-box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.2) !important;
+	box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.2) !important;*/
+}
+
+#alreadySignupDiv {
+
+	font-weight: 300;
+	font-size: 13px;
+	/*margin-bottom: 0px;*/
+}
+
+#loginFooter {
+	background: #F5F5F5;
+	text-align: center;
+	grid-area: loginFooter;
+}
+
+#loginFooter p {
+	font-weight: 300;
+	font-size: 12px;
+	color: #9F9F9F;
+	margin-top: 10px;
+	/*margin-bottom: 20px;*/
+}
+
+.loginCountryBox {
+	padding-right: 10px;
+	text-align: left;
+}
+
+.loginCountryBox .select2-container--default .select2-selection--single {
+
+	border:1px solid #eee;
+
+	/*background-color: #fff;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.2) !important;
+	-moz-box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.2) !important;
+	box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0, 0.2) !important;*/
+}
+
+.successFa {
+	width: 18px;
+	height: 18px;
+	padding-top: 1px;
+	padding-left: 1px;
+	color: #fff;
+	background: #00F13A;
+	border-radius: 30px;
+}
+
+.failedFa {
+	width: 18px;
+	height: 18px;		
+	padding-top: 1px;
+	padding-left: 1px;
+	color: #fff;
+	background: #FF0316;
+	border-radius: 30px;
+		
+}
+
+#sliderButton {
+/*	margin-top: 170px;
+	margin-bottom: 170px;*/
+}
+
+
+#digit-1, #digit-2, #digit-3, #digit-4, #digit-5 {
+	width: calc(20% - 10px); 
+	height: 50px;
+	border:1px solid #eee;
+
+	font-weight: 300;
+	font-size: 25px;
+}
+
+#digit-1:focus, #digit-2:focus, #digit-3:focus, #digit-4:focus, #digit-5:focus {
+	outline:none;
+    border-color: #51C2DB;
+}
+
+
+.otpDiv {
+	text-align: left;
+	width: 100%;
+	margin-left: 10px;
+	margin-bottom: 5px;
+
+	color: #9F9F9F;
+
+}
+
+.otp-slide-text {
+	color: #000;
+	font-size: 12px;
+	/*text-transform: uppercase;*/
+	font-family: "Roboto", sans-serif;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+
+.newSignUpQuest {
+	font-weight: 300;
+	font-size: 18px;
+	color: #51C2DB;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.floated-chat-btn {
+	display: none !important;
+}
+
+.social-media-widget {
+    z-index: 9999;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 2px 20px 0 rgb(139 139 140 / 75%);
+    box-shadow: 0 2px 20px 0 rgb(139 139 140 / 75%);
+    border-radius: 75px;
+    color: #fff;
+    padding: 15px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 1.08rem;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+	-webkit-animation-name: jumpUp;
+    animation-name: jumpUp;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+@media (max-width: 360px) {
+	#loginMessage {
+		margin-top: 6px;
+		font-size: 12px;
+	}
+}
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+   /* IE10+ specific styles go here */  
+   .modal-content {
+		margin-top: 50%;
+	}
+}
+

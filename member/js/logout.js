@@ -1,0 +1,1 @@
+function beforeLogout(){var n="Error!",o=Array("Yes");showMessage("Are you sure you want to logout?","info","Logout","sign-out","",o),$("#canvasYesBtn").click(function(){$.ajax({type:"POST",url:"scripts/reqLogin.php",data:{type:"logout"},success:function(o){window.location.href="pageLogin.php"},error:function(o){n(n)}})})}
